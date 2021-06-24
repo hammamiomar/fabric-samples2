@@ -1,4 +1,4 @@
-[34m2021-06-24 18:17:51.147 UTC [nodeCmd] serve -> INFO 001[0m Starting peer:
+[34m2021-06-24 18:32:42.567 UTC [nodeCmd] serve -> INFO 001[0m Starting peer:
  Version: 2.3.2
  Commit SHA: 0022e8f
  Go version: go1.15.7
@@ -6,153 +6,134 @@
  Chaincode:
   Base Docker Label: org.hyperledger.fabric
   Docker Namespace: hyperledger
-[34m2021-06-24 18:17:51.147 UTC [peer] getLocalAddress -> INFO 002[0m Auto-detected peer address: 172.23.0.26:7051
-[34m2021-06-24 18:17:51.147 UTC [peer] getLocalAddress -> INFO 003[0m Returning peer0.org1.example.com:7051
-[34m2021-06-24 18:17:51.161 UTC [nodeCmd] initGrpcSemaphores -> INFO 004[0m concurrency limit for endorser service is 2500
-[34m2021-06-24 18:17:51.161 UTC [nodeCmd] initGrpcSemaphores -> INFO 005[0m concurrency limit for deliver service is 2500
-[34m2021-06-24 18:17:51.161 UTC [nodeCmd] serve -> INFO 006[0m Starting peer with TLS enabled
-[34m2021-06-24 18:17:51.347 UTC [certmonitor] trackCertExpiration -> INFO 007[0m The enrollment certificate will expire on 2031-06-22 18:13:00 +0000 UTC
-[34m2021-06-24 18:17:51.348 UTC [certmonitor] trackCertExpiration -> INFO 008[0m The server TLS certificate will expire on 2031-06-22 18:13:00 +0000 UTC
-[34m2021-06-24 18:17:51.348 UTC [ledgermgmt] NewLedgerMgr -> INFO 009[0m Initializing LedgerMgr
-[34m2021-06-24 18:17:51.534 UTC [leveldbhelper] openDBAndCheckFormat -> INFO 00a[0m DB is empty Setting db format as 2.0
-[34m2021-06-24 18:17:51.569 UTC [blkstorage] NewProvider -> INFO 00b[0m Creating new file ledger directory at /var/hyperledger/production/ledgersData/chains/chains
-[34m2021-06-24 18:17:51.630 UTC [leveldbhelper] openDBAndCheckFormat -> INFO 00c[0m DB is empty Setting db format as 2.0
-[33m2021-06-24 18:17:51.769 UTC [couchdb] handleRequest -> WARN 00d[0m Attempt 1 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.23.0.13:5984: connect: connection refused. Retrying couchdb request in 125ms
-[33m2021-06-24 18:17:51.898 UTC [couchdb] handleRequest -> WARN 00e[0m Attempt 2 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.23.0.13:5984: connect: connection refused. Retrying couchdb request in 250ms
-[33m2021-06-24 18:17:52.151 UTC [couchdb] handleRequest -> WARN 00f[0m Attempt 3 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.23.0.13:5984: connect: connection refused. Retrying couchdb request in 500ms
-[33m2021-06-24 18:17:52.654 UTC [couchdb] handleRequest -> WARN 010[0m Attempt 4 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.23.0.13:5984: connect: connection refused. Retrying couchdb request in 1s
-[33m2021-06-24 18:17:53.656 UTC [couchdb] handleRequest -> WARN 011[0m Attempt 5 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.23.0.13:5984: connect: connection refused. Retrying couchdb request in 2s
-[33m2021-06-24 18:17:55.660 UTC [couchdb] handleRequest -> WARN 012[0m Attempt 6 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.23.0.13:5984: connect: connection refused. Retrying couchdb request in 4s
-[34m2021-06-24 18:18:00.137 UTC [couchdb] createDatabaseIfNotExist -> INFO 013[0m Created state database _users
-[34m2021-06-24 18:18:00.202 UTC [couchdb] createDatabaseIfNotExist -> INFO 014[0m Created state database _replicator
-[33m2021-06-24 18:18:00.203 UTC [couchdb] checkCouchDBVersion -> WARN 015[0m CouchDB v2.3.1 detected. CouchDB versions before 3.1.0 are unsupported.
-[34m2021-06-24 18:18:00.457 UTC [couchdb] createDatabaseIfNotExist -> INFO 016[0m Created state database fabric__internal
-[34m2021-06-24 18:18:00.616 UTC [ledgermgmt] NewLedgerMgr -> INFO 017[0m Initialized LedgerMgr
-[34m2021-06-24 18:18:00.617 UTC [gossip.service] New -> INFO 018[0m Initialize gossip with endpoint peer0.org1.example.com:7051
-[34m2021-06-24 18:18:00.618 UTC [gossip.gossip] New -> INFO 019[0m Creating gossip service with self membership of Endpoint: peer0.org1.example.com:7051, InternalEndpoint: peer0.org1.example.com:7051, PKI-ID: 220573c3d4a515e497de23976a64f0fc65d40ce790c1c00c0ee6827676a73ed1, Metadata: 
-[34m2021-06-24 18:18:00.619 UTC [lifecycle] InitializeLocalChaincodes -> INFO 01a[0m Initialized lifecycle cache with 0 already installed chaincodes
-[34m2021-06-24 18:18:00.619 UTC [gossip.gossip] start -> INFO 01b[0m Gossip instance peer0.org1.example.com:7051 started
-[34m2021-06-24 18:18:00.619 UTC [nodeCmd] computeChaincodeEndpoint -> INFO 01c[0m Entering computeChaincodeEndpoint with peerHostname: peer0.org1.example.com
-[34m2021-06-24 18:18:00.619 UTC [nodeCmd] computeChaincodeEndpoint -> INFO 01d[0m Exit with ccEndpoint: peer0.org1.example.com:7052
-[34m2021-06-24 18:18:00.621 UTC [sccapi] DeploySysCC -> INFO 01e[0m deploying system chaincode 'lscc'
-[34m2021-06-24 18:18:00.621 UTC [sccapi] DeploySysCC -> INFO 01f[0m deploying system chaincode 'cscc'
-[34m2021-06-24 18:18:00.621 UTC [sccapi] DeploySysCC -> INFO 020[0m deploying system chaincode 'qscc'
-[34m2021-06-24 18:18:00.621 UTC [sccapi] DeploySysCC -> INFO 021[0m deploying system chaincode '_lifecycle'
-[34m2021-06-24 18:18:00.621 UTC [nodeCmd] serve -> INFO 022[0m Deployed system chaincodes
-[34m2021-06-24 18:18:00.621 UTC [discovery] NewService -> INFO 023[0m Created with config TLS: true, authCacheMaxSize: 1000, authCachePurgeRatio: 0.750000
-[34m2021-06-24 18:18:00.622 UTC [nodeCmd] registerDiscoveryService -> INFO 024[0m Discovery service activated
-[34m2021-06-24 18:18:00.622 UTC [nodeCmd] serve -> INFO 025[0m Starting peer with ID=[peer0.org1.example.com], network ID=[dev], address=[peer0.org1.example.com:7051]
-[34m2021-06-24 18:18:00.622 UTC [nodeCmd] func6 -> INFO 026[0m Starting profiling server with listenAddress = 0.0.0.0:6060
-[34m2021-06-24 18:18:00.622 UTC [nodeCmd] serve -> INFO 027[0m Started peer with ID=[peer0.org1.example.com], network ID=[dev], address=[peer0.org1.example.com:7051]
-[34m2021-06-24 18:18:00.622 UTC [kvledger] LoadPreResetHeight -> INFO 028[0m Loading prereset height from path [/var/hyperledger/production/ledgersData/chains]
-[34m2021-06-24 18:18:00.623 UTC [blkstorage] preResetHtFiles -> INFO 029[0m No active channels passed
-[34m2021-06-24 18:18:00.698 UTC [comm.grpc.server] 1 -> INFO 02a[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:02.697Z grpc.peer_address=172.23.0.28:50094 grpc.peer_subject="CN=peer2.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=280µs
-[34m2021-06-24 18:18:00.701 UTC [gossip.comm] GossipStream -> INFO 02b[0m Peer 334dc50750dce3dc57bd3dfb363bcd850d8dc03006a1599e19339b4a1dd7718f (172.23.0.28:50094) probed us
-[34m2021-06-24 18:18:00.701 UTC [comm.grpc.server] 1 -> INFO 02c[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:10.7Z grpc.peer_address=172.23.0.28:50094 grpc.peer_subject="CN=peer2.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=1.098503ms
-[34m2021-06-24 18:18:00.707 UTC [comm.grpc.server] 1 -> INFO 02d[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:02.707Z grpc.peer_address=172.23.0.28:50096 grpc.peer_subject="CN=peer2.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=56µs
-[34m2021-06-24 18:18:09.061 UTC [ledgermgmt] CreateLedger -> INFO 02e[0m Creating ledger [mychannel] with genesis block
-[34m2021-06-24 18:18:09.064 UTC [blkstorage] newBlockfileMgr -> INFO 02f[0m Getting block information from block storage
-[34m2021-06-24 18:18:09.109 UTC [couchdb] createDatabaseIfNotExist -> INFO 030[0m Created state database mychannel_
-[34m2021-06-24 18:18:09.209 UTC [couchdb] createDatabaseIfNotExist -> INFO 031[0m Created state database mychannel__lifecycle
-[34m2021-06-24 18:18:09.374 UTC [kvledger] commit -> INFO 032[0m [mychannel] Committed block [0] with 1 transaction(s) in 117ms (state_validation=0ms block_and_pvtdata_commit=5ms state_commit=109ms) commitHash=[]
-[34m2021-06-24 18:18:09.374 UTC [kvledger] updateLedgerStatus -> INFO 033[0m Updating ledger [mychannel] status to [ACTIVE]
-[34m2021-06-24 18:18:09.376 UTC [ledgermgmt] CreateLedger -> INFO 034[0m Created ledger [mychannel] with genesis block
-[34m2021-06-24 18:18:09.401 UTC [gossip.gossip] JoinChan -> INFO 035[0m Joining gossip network of channel mychannel with 2 organizations
-[34m2021-06-24 18:18:09.401 UTC [gossip.gossip] learnAnchorPeers -> INFO 036[0m No configured anchor peers of Org1MSP for channel mychannel to learn about
-[34m2021-06-24 18:18:09.401 UTC [gossip.gossip] learnAnchorPeers -> INFO 037[0m No configured anchor peers of Org2MSP for channel mychannel to learn about
-[34m2021-06-24 18:18:09.403 UTC [gossip.state] NewGossipStateProvider -> INFO 038[0m Updating metadata information for channel mychannel, current ledger sequence is at = 0, next expected block is = 1
-[34m2021-06-24 18:18:09.403 UTC [endorser] callChaincode -> INFO 039[0m finished chaincode: cscc duration: 345ms channel= txID=0b53e1a5
-[34m2021-06-24 18:18:09.403 UTC [comm.grpc.server] 1 -> INFO 03a[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.23.0.30:32888 grpc.code=OK grpc.call_duration=346.987746ms
-[34m2021-06-24 18:18:14.402 UTC [gossip.channel] reportMembershipChanges -> INFO 03b[0m [[mychannel] Membership view has changed. peers went online:  [[peer1.org1.example.com:8051]] , current view:  [[peer1.org1.example.com:8051]]]
-[34m2021-06-24 18:18:15.405 UTC [gossip.election] beLeader -> INFO 03c[0m 220573c3d4a515e497de23976a64f0fc65d40ce790c1c00c0ee6827676a73ed1 : Becoming a leader
-[34m2021-06-24 18:18:15.405 UTC [gossip.service] func1 -> INFO 03d[0m Elected as a leader, starting delivery service for channel mychannel
-[34m2021-06-24 18:18:15.405 UTC [deliveryClient] StartDeliverForChannel -> INFO 03e[0m This peer will retrieve blocks from ordering service and disseminate to other peers in the organization for channel mychannel
-[34m2021-06-24 18:18:19.402 UTC [gossip.channel] reportMembershipChanges -> INFO 03f[0m [[mychannel] Membership view has changed. peers went online:  [[peer2.org1.example.com:9051]] , current view:  [[peer1.org1.example.com:8051] [peer2.org1.example.com:9051]]]
-[34m2021-06-24 18:18:24.352 UTC [comm.grpc.server] 1 -> INFO 040[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:26.352Z grpc.peer_address=172.23.0.24:46530 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=61.801µs
-[34m2021-06-24 18:18:24.356 UTC [gossip.comm] GossipStream -> INFO 041[0m Peer 46513bc6776f914fcee1ce5f03da5c757fada5ad379a31a50307e37cdb1c81e9 (172.23.0.24:46530) probed us
-[34m2021-06-24 18:18:24.356 UTC [comm.grpc.server] 1 -> INFO 042[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:34.355Z grpc.peer_address=172.23.0.24:46530 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=972.703µs
-[34m2021-06-24 18:18:29.531 UTC [gossip.privdata] StoreBlock -> INFO 043[0m Received block [1] from buffer channel=mychannel
-[34m2021-06-24 18:18:29.541 UTC [gossip.gossip] JoinChan -> INFO 044[0m Joining gossip network of channel mychannel with 2 organizations
-[34m2021-06-24 18:18:29.541 UTC [gossip.gossip] learnAnchorPeers -> INFO 045[0m Learning about the configured anchor peers of Org1MSP for channel mychannel: [{peer0.org1.example.com 7051}]
-[34m2021-06-24 18:18:29.542 UTC [gossip.gossip] learnAnchorPeers -> INFO 046[0m Anchor peer for channel mychannel with same endpoint, skipping connecting to myself
-[34m2021-06-24 18:18:29.542 UTC [gossip.gossip] learnAnchorPeers -> INFO 047[0m No configured anchor peers of Org2MSP for channel mychannel to learn about
-[34m2021-06-24 18:18:29.543 UTC [committer.txvalidator] Validate -> INFO 048[0m [mychannel] Validated block [1] in 11ms
-[34m2021-06-24 18:18:29.558 UTC [comm.grpc.server] 1 -> INFO 049[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:31.558Z grpc.peer_address=172.23.0.24:46538 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=181.801µs
-[34m2021-06-24 18:18:29.561 UTC [gossip.comm] GossipStream -> INFO 04a[0m Peer 46513bc6776f914fcee1ce5f03da5c757fada5ad379a31a50307e37cdb1c81e9 (172.23.0.24:46538) probed us
-[34m2021-06-24 18:18:29.561 UTC [comm.grpc.server] 1 -> INFO 04b[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:39.56Z grpc.peer_address=172.23.0.24:46538 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=720.602µs
-[34m2021-06-24 18:18:29.589 UTC [comm.grpc.server] 1 -> INFO 04c[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:31.588Z grpc.peer_address=172.23.0.28:50162 grpc.peer_subject="CN=peer2.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=72µs
-[34m2021-06-24 18:18:29.599 UTC [gossip.comm] GossipStream -> INFO 04d[0m Peer 334dc50750dce3dc57bd3dfb363bcd850d8dc03006a1599e19339b4a1dd7718f (172.23.0.28:50162) probed us
-[34m2021-06-24 18:18:29.599 UTC [comm.grpc.server] 1 -> INFO 04e[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:39.597Z grpc.peer_address=172.23.0.28:50162 grpc.peer_subject="CN=peer2.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=2.441807ms
-[34m2021-06-24 18:18:29.626 UTC [kvledger] commit -> INFO 04f[0m [mychannel] Committed block [1] with 1 transaction(s) in 82ms (state_validation=0ms block_and_pvtdata_commit=6ms state_commit=74ms) commitHash=[47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254]
-[34m2021-06-24 18:18:32.627 UTC [gossip.privdata] StoreBlock -> INFO 050[0m Received block [2] from buffer channel=mychannel
-[34m2021-06-24 18:18:32.698 UTC [comm.grpc.server] 1 -> INFO 051[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:34.697Z grpc.peer_address=172.23.0.28:50168 grpc.peer_subject="CN=peer2.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=60µs
-[34m2021-06-24 18:18:32.703 UTC [comm.grpc.server] 1 -> INFO 052[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:34.702Z grpc.peer_address=172.23.0.24:46548 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=91.101µs
-[34m2021-06-24 18:18:32.707 UTC [gossip.comm] GossipStream -> INFO 053[0m Peer 334dc50750dce3dc57bd3dfb363bcd850d8dc03006a1599e19339b4a1dd7718f (172.23.0.28:50168) probed us
-[34m2021-06-24 18:18:32.707 UTC [comm.grpc.server] 1 -> INFO 054[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:42.704Z grpc.peer_address=172.23.0.28:50168 grpc.peer_subject="CN=peer2.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=970.302µs
-[34m2021-06-24 18:18:32.709 UTC [gossip.comm] GossipStream -> INFO 055[0m Peer 46513bc6776f914fcee1ce5f03da5c757fada5ad379a31a50307e37cdb1c81e9 (172.23.0.24:46548) probed us
-[34m2021-06-24 18:18:32.710 UTC [comm.grpc.server] 1 -> INFO 056[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:42.708Z grpc.peer_address=172.23.0.24:46548 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=1.391604ms
-[34m2021-06-24 18:18:32.725 UTC [gossip.gossip] JoinChan -> INFO 057[0m Joining gossip network of channel mychannel with 2 organizations
-[34m2021-06-24 18:18:32.726 UTC [gossip.gossip] learnAnchorPeers -> INFO 058[0m Learning about the configured anchor peers of Org1MSP for channel mychannel: [{peer0.org1.example.com 7051}]
-[34m2021-06-24 18:18:32.726 UTC [gossip.gossip] learnAnchorPeers -> INFO 059[0m Anchor peer for channel mychannel with same endpoint, skipping connecting to myself
-[34m2021-06-24 18:18:32.727 UTC [gossip.gossip] learnAnchorPeers -> INFO 05a[0m Learning about the configured anchor peers of Org2MSP for channel mychannel: [{peer0.org2.example.com 17051}]
-[34m2021-06-24 18:18:32.732 UTC [committer.txvalidator] Validate -> INFO 05b[0m [mychannel] Validated block [2] in 95ms
-[34m2021-06-24 18:18:32.793 UTC [kvledger] commit -> INFO 05c[0m [mychannel] Committed block [2] with 1 transaction(s) in 51ms (state_validation=1ms block_and_pvtdata_commit=18ms state_commit=30ms) commitHash=[5f88b61407b149a48413433f4670c46531e5c4a8febdc339a9536ff8716a559e]
-[34m2021-06-24 18:18:33.325 UTC [comm.grpc.server] 1 -> INFO 05d[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:35.325Z grpc.peer_address=172.23.0.29:48586 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=63.5µs
-[34m2021-06-24 18:18:33.328 UTC [gossip.comm] GossipStream -> INFO 05e[0m Peer dc1f891d1609cfbca9bc4aeb20b8da0acec56f9977c7f6a595401a878842cd03 (172.23.0.29:48586) probed us
-[34m2021-06-24 18:18:33.328 UTC [comm.grpc.server] 1 -> INFO 05f[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:43.327Z grpc.peer_address=172.23.0.29:48586 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=1.448104ms
-[34m2021-06-24 18:18:33.338 UTC [comm.grpc.server] 1 -> INFO 060[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:35.337Z grpc.peer_address=172.23.0.27:44814 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=54.4µs
-[34m2021-06-24 18:18:33.343 UTC [comm.grpc.server] 1 -> INFO 061[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:35.343Z grpc.peer_address=172.23.0.29:48590 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=52.8µs
-[34m2021-06-24 18:18:33.344 UTC [gossip.comm] GossipStream -> INFO 062[0m Peer e1c7ac5f187f4b6e8a4ed230138f84f4ec2c223c629a9f612a3d6ed4c101e87f (172.23.0.27:44814) probed us
-[34m2021-06-24 18:18:33.344 UTC [comm.grpc.server] 1 -> INFO 063[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:43.341Z grpc.peer_address=172.23.0.27:44814 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=2.529307ms
-[34m2021-06-24 18:18:33.345 UTC [comm.grpc.server] 1 -> INFO 064[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:35.344Z grpc.peer_address=172.23.0.25:55166 grpc.peer_subject="CN=peer2.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=49.7µs
-[34m2021-06-24 18:18:33.348 UTC [gossip.comm] GossipStream -> INFO 065[0m Peer 84ad1b16392efe18f4d66eb3ad48c0606c3a244342bd2b626569d2bc8e9fdedd (172.23.0.25:55166) probed us
-[34m2021-06-24 18:18:33.349 UTC [comm.grpc.server] 1 -> INFO 066[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:43.347Z grpc.peer_address=172.23.0.25:55166 grpc.peer_subject="CN=peer2.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=1.292703ms
-[34m2021-06-24 18:18:33.371 UTC [comm.grpc.server] 1 -> INFO 067[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:35.37Z grpc.peer_address=172.23.0.25:55174 grpc.peer_subject="CN=peer2.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=153.2µs
-[34m2021-06-24 18:18:33.441 UTC [comm.grpc.server] 1 -> INFO 068[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:35.441Z grpc.peer_address=172.23.0.29:48594 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=60.7µs
-[34m2021-06-24 18:18:33.444 UTC [gossip.comm] GossipStream -> INFO 069[0m Peer dc1f891d1609cfbca9bc4aeb20b8da0acec56f9977c7f6a595401a878842cd03 (172.23.0.29:48594) probed us
-[34m2021-06-24 18:18:33.444 UTC [comm.grpc.server] 1 -> INFO 06a[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:43.443Z grpc.peer_address=172.23.0.29:48594 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=939.702µs
-[34m2021-06-24 18:18:33.472 UTC [comm.grpc.server] 1 -> INFO 06b[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:35.471Z grpc.peer_address=172.23.0.27:44824 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=60.901µs
-[34m2021-06-24 18:18:33.475 UTC [gossip.comm] GossipStream -> INFO 06c[0m Peer e1c7ac5f187f4b6e8a4ed230138f84f4ec2c223c629a9f612a3d6ed4c101e87f (172.23.0.27:44824) probed us
-[34m2021-06-24 18:18:33.475 UTC [comm.grpc.server] 1 -> INFO 06d[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:18:35.474Z grpc.peer_address=172.23.0.25:55182 grpc.peer_subject="CN=peer2.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=50.9µs
-[34m2021-06-24 18:18:33.475 UTC [comm.grpc.server] 1 -> INFO 06e[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:43.473Z grpc.peer_address=172.23.0.27:44824 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=1.746704ms
-[34m2021-06-24 18:18:33.480 UTC [gossip.comm] GossipStream -> INFO 06f[0m Peer 84ad1b16392efe18f4d66eb3ad48c0606c3a244342bd2b626569d2bc8e9fdedd (172.23.0.25:55182) probed us
-[34m2021-06-24 18:18:33.480 UTC [comm.grpc.server] 1 -> INFO 070[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:18:43.479Z grpc.peer_address=172.23.0.25:55182 grpc.peer_subject="CN=peer2.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=814.301µs
-[34m2021-06-24 18:18:34.402 UTC [gossip.channel] reportMembershipChanges -> INFO 071[0m [[mychannel] Membership view has changed. peers went online:  [[peer0.org2.example.com:17051 ] [peer1.org2.example.com:18051 ] [peer2.org2.example.com:19051 ]] , current view:  [[peer0.org2.example.com:17051 ] [peer1.org2.example.com:18051 ] [peer2.org2.example.com:19051 ] [peer1.org1.example.com:8051] [peer2.org1.example.com:9051]]]
-[34m2021-06-24 18:19:03.045 UTC [lifecycle] InstallChaincode -> INFO 072[0m Successfully installed chaincode with package ID 'fabcarv1:45097293189158aadd0deab44a9a91a2d536128ab7abfe058ee37eb74539db85'
-[34m2021-06-24 18:19:03.045 UTC [endorser] callChaincode -> INFO 073[0m finished chaincode: _lifecycle duration: 26969ms channel= txID=5f78ba23
-[34m2021-06-24 18:19:03.045 UTC [comm.grpc.server] 1 -> INFO 074[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.23.0.30:32962 grpc.code=OK grpc.call_duration=26.969709425s
-[34m2021-06-24 18:19:28.984 UTC [endorser] callChaincode -> INFO 075[0m finished chaincode: _lifecycle duration: 0ms channel= txID=3400f9b6
-[34m2021-06-24 18:19:28.984 UTC [comm.grpc.server] 1 -> INFO 076[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.23.0.30:33032 grpc.code=OK grpc.call_duration=966.302µs
-[34m2021-06-24 18:19:29.393 UTC [couchdb] createDatabaseIfNotExist -> INFO 077[0m Created state database mychannel_lscc
-[34m2021-06-24 18:19:29.479 UTC [couchdb] createDatabaseIfNotExist -> INFO 078[0m Created state database mychannel__lifecycle$$p_implicit_org_$org1$m$s$p
-[34m2021-06-24 18:19:29.559 UTC [couchdb] createDatabaseIfNotExist -> INFO 079[0m Created state database mychannel__lifecycle$$h_implicit_org_$org1$m$s$p
-[34m2021-06-24 18:19:29.575 UTC [lifecycle] ApproveChaincodeDefinitionForOrg -> INFO 07a[0m Successfully endorsed chaincode approval with name 'fabcar', package ID 'fabcarv1:45097293189158aadd0deab44a9a91a2d536128ab7abfe058ee37eb74539db85', on channel 'mychannel' with definition {sequence: 1, endorsement info: (version: '1.0', plugin: 'escc', init required: false), validation info: (plugin: 'vscc', policy: '0a28120c120a080212020800120208011a0b12090a074f7267314d53501a0b12090a074f7267324d5350'), collections: ()}
-[34m2021-06-24 18:19:29.576 UTC [endorser] callChaincode -> INFO 07b[0m finished chaincode: _lifecycle duration: 270ms channel=mychannel txID=1f28a11f
-[34m2021-06-24 18:19:29.597 UTC [comm.grpc.server] 1 -> INFO 07c[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.23.0.30:33036 grpc.code=OK grpc.call_duration=292.127697ms
-[34m2021-06-24 18:19:31.656 UTC [gossip.privdata] StoreBlock -> INFO 07d[0m Received block [3] from buffer channel=mychannel
-[34m2021-06-24 18:19:31.658 UTC [committer.txvalidator] Validate -> INFO 07e[0m [mychannel] Validated block [3] in 1ms
-[34m2021-06-24 18:19:31.662 UTC [gossip.privdata] RetrievePvtdata -> INFO 07f[0m Successfully fetched all 1 eligible collection private write sets for block [3] (0 from local cache, 1 from transient store, 0 from other peers) channel=mychannel
-[34m2021-06-24 18:19:32.010 UTC [kvledger] commit -> INFO 080[0m [mychannel] Committed block [3] with 1 transaction(s) in 348ms (state_validation=95ms block_and_pvtdata_commit=6ms state_commit=245ms) commitHash=[fe0ae343dc08680b1ed41f149981cb651bb18ffe2ceefdb08d4fc020f338c3df]
-[34m2021-06-24 18:19:32.024 UTC [comm.grpc.server] 1 -> INFO 081[0m streaming call completed grpc.service=protos.Deliver grpc.method=DeliverFiltered grpc.request_deadline=2021-06-24T18:19:59.6Z grpc.peer_address=172.23.0.30:33038 error="context finished before block retrieved: context canceled" grpc.code=Unknown grpc.call_duration=2.424420209s
-[34m2021-06-24 18:20:30.437 UTC [gossip.privdata] StoreBlock -> INFO 082[0m Received block [4] from buffer channel=mychannel
-[34m2021-06-24 18:20:30.441 UTC [committer.txvalidator] Validate -> INFO 083[0m [mychannel] Validated block [4] in 4ms
-[34m2021-06-24 18:20:31.247 UTC [couchdb] createDatabaseIfNotExist -> INFO 084[0m Created state database mychannel__lifecycle$$h_implicit_org_$org2$m$s$p
-[34m2021-06-24 18:20:31.520 UTC [kvledger] commit -> INFO 085[0m [mychannel] Committed block [4] with 1 transaction(s) in 1062ms (state_validation=843ms block_and_pvtdata_commit=7ms state_commit=210ms) commitHash=[0d6422a91bb4cf108af426791c13c91d05571fafbb9b77f3bcb289fc991b8e2c]
-[34m2021-06-24 18:20:31.695 UTC [lifecycle] CheckCommitReadiness -> INFO 086[0m Successfully checked commit readiness of chaincode name 'fabcar' on channel 'mychannel' with definition {sequence: 1, endorsement info: (version: '1.0', plugin: 'escc', init required: false), validation info: (plugin: 'vscc', policy: '0a28120c120a080212020800120208011a0b12090a074f7267314d53501a0b12090a074f7267324d5350'), collections: (<nil>)}
-[34m2021-06-24 18:20:31.699 UTC [lifecycle] CommitChaincodeDefinition -> INFO 087[0m Successfully endorsed commit for chaincode name 'fabcar' on channel 'mychannel' with definition {sequence: 1, endorsement info: (version: '1.0', plugin: 'escc', init required: false), validation info: (plugin: 'vscc', policy: '0a28120c120a080212020800120208011a0b12090a074f7267314d53501a0b12090a074f7267324d5350'), collections: (<nil>)}
-[34m2021-06-24 18:20:31.699 UTC [endorser] callChaincode -> INFO 088[0m finished chaincode: _lifecycle duration: 84ms channel=mychannel txID=5a3056f8
-[34m2021-06-24 18:20:31.700 UTC [comm.grpc.server] 1 -> INFO 089[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.23.0.30:33118 grpc.code=OK grpc.call_duration=85.239733ms
-[34m2021-06-24 18:20:33.850 UTC [gossip.privdata] StoreBlock -> INFO 08a[0m Received block [5] from buffer channel=mychannel
-[34m2021-06-24 18:20:33.851 UTC [committer.txvalidator] Validate -> INFO 08b[0m [mychannel] Validated block [5] in 0ms
-[34m2021-06-24 18:20:33.926 UTC [lifecycle] update -> INFO 08c[0m Updating cached definition for chaincode 'fabcar' on channel 'mychannel'
-[34m2021-06-24 18:20:33.975 UTC [lifecycle] update -> INFO 08d[0m Chaincode with package ID 'fabcarv1:45097293189158aadd0deab44a9a91a2d536128ab7abfe058ee37eb74539db85' now available on channel mychannel for chaincode definition fabcar:1.0
-[34m2021-06-24 18:20:33.996 UTC [cceventmgmt] HandleStateUpdates -> INFO 08e[0m Channel [mychannel]: Handling deploy or update of chaincode [fabcar]
-[34m2021-06-24 18:20:34.584 UTC [kvledger] commit -> INFO 08f[0m [mychannel] Committed block [5] with 1 transaction(s) in 731ms (state_validation=267ms block_and_pvtdata_commit=8ms state_commit=452ms) commitHash=[4a2dae288556d5345a1e9c4e3e06faf51935e1bbd35cd282b473340c41c8fe1d]
-[34m2021-06-24 18:20:34.874 UTC [comm.grpc.server] 1 -> INFO 090[0m streaming call completed grpc.service=protos.Deliver grpc.method=DeliverFiltered grpc.request_deadline=2021-06-24T18:21:01.798Z grpc.peer_address=172.23.0.30:33120 error="context finished before block retrieved: context canceled" grpc.code=Unknown grpc.call_duration=3.075261384s
-[34m2021-06-24 18:20:37.930 UTC [endorser] callChaincode -> INFO 091[0m finished chaincode: fabcar duration: 1633ms channel=mychannel txID=0c8e170c
-[34m2021-06-24 18:20:37.930 UTC [comm.grpc.server] 1 -> INFO 092[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.23.0.30:33136 grpc.code=OK grpc.call_duration=1.745311858s
-[34m2021-06-24 18:20:40.450 UTC [gossip.privdata] StoreBlock -> INFO 093[0m Received block [6] from buffer channel=mychannel
-[34m2021-06-24 18:20:40.721 UTC [committer.txvalidator] Validate -> INFO 094[0m [mychannel] Validated block [6] in 270ms
-[34m2021-06-24 18:20:41.023 UTC [couchdb] createDatabaseIfNotExist -> INFO 095[0m Created state database mychannel_fabcar
-[34m2021-06-24 18:20:41.170 UTC [kvledger] commit -> INFO 096[0m [mychannel] Committed block [6] with 1 transaction(s) in 448ms (state_validation=0ms block_and_pvtdata_commit=12ms state_commit=433ms) commitHash=[dcb39fc2e3455a970c6e5bc370fa87403b7dfa0fd66c54b0c370b87028823258]
-[34m2021-06-24 18:20:41.177 UTC [comm.grpc.server] 1 -> INFO 097[0m streaming call completed grpc.service=protos.Deliver grpc.method=DeliverFiltered grpc.request_deadline=2021-06-24T18:25:38.426Z grpc.peer_address=172.23.0.30:33138 error="context finished before block retrieved: context canceled" grpc.code=Unknown grpc.call_duration=2.750209197s
+[34m2021-06-24 18:32:42.570 UTC [peer] getLocalAddress -> INFO 002[0m Auto-detected peer address: 172.24.0.14:7051
+[34m2021-06-24 18:32:42.570 UTC [peer] getLocalAddress -> INFO 003[0m Returning peer0.org1.example.com:7051
+[34m2021-06-24 18:32:42.588 UTC [nodeCmd] initGrpcSemaphores -> INFO 004[0m concurrency limit for endorser service is 2500
+[34m2021-06-24 18:32:42.588 UTC [nodeCmd] initGrpcSemaphores -> INFO 005[0m concurrency limit for deliver service is 2500
+[34m2021-06-24 18:32:42.588 UTC [nodeCmd] serve -> INFO 006[0m Starting peer with TLS enabled
+[34m2021-06-24 18:32:42.607 UTC [certmonitor] trackCertExpiration -> INFO 007[0m The enrollment certificate will expire on 2031-06-22 18:28:00 +0000 UTC
+[34m2021-06-24 18:32:42.622 UTC [certmonitor] trackCertExpiration -> INFO 008[0m The server TLS certificate will expire on 2031-06-22 18:28:00 +0000 UTC
+[34m2021-06-24 18:32:42.622 UTC [ledgermgmt] NewLedgerMgr -> INFO 009[0m Initializing LedgerMgr
+[34m2021-06-24 18:32:42.827 UTC [leveldbhelper] openDBAndCheckFormat -> INFO 00a[0m DB is empty Setting db format as 2.0
+[34m2021-06-24 18:32:42.830 UTC [blkstorage] NewProvider -> INFO 00b[0m Creating new file ledger directory at /var/hyperledger/production/ledgersData/chains/chains
+[34m2021-06-24 18:32:42.868 UTC [leveldbhelper] openDBAndCheckFormat -> INFO 00c[0m DB is empty Setting db format as 2.0
+[33m2021-06-24 18:32:43.010 UTC [couchdb] handleRequest -> WARN 00d[0m Attempt 1 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.24.0.9:5984: connect: connection refused. Retrying couchdb request in 125ms
+[33m2021-06-24 18:32:43.138 UTC [couchdb] handleRequest -> WARN 00e[0m Attempt 2 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.24.0.9:5984: connect: connection refused. Retrying couchdb request in 250ms
+[33m2021-06-24 18:32:43.391 UTC [couchdb] handleRequest -> WARN 00f[0m Attempt 3 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.24.0.9:5984: connect: connection refused. Retrying couchdb request in 500ms
+[33m2021-06-24 18:32:43.892 UTC [couchdb] handleRequest -> WARN 010[0m Attempt 4 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.24.0.9:5984: connect: connection refused. Retrying couchdb request in 1s
+[33m2021-06-24 18:32:44.894 UTC [couchdb] handleRequest -> WARN 011[0m Attempt 5 of 11 returned error: Get "http://couchdb0:5984/": dial tcp 172.24.0.9:5984: connect: connection refused. Retrying couchdb request in 2s
+[34m2021-06-24 18:32:47.420 UTC [couchdb] createDatabaseIfNotExist -> INFO 012[0m Created state database _users
+[34m2021-06-24 18:32:47.494 UTC [couchdb] createDatabaseIfNotExist -> INFO 013[0m Created state database _replicator
+[33m2021-06-24 18:32:47.495 UTC [couchdb] checkCouchDBVersion -> WARN 014[0m CouchDB v2.3.1 detected. CouchDB versions before 3.1.0 are unsupported.
+[34m2021-06-24 18:32:47.734 UTC [couchdb] createDatabaseIfNotExist -> INFO 015[0m Created state database fabric__internal
+[34m2021-06-24 18:32:47.858 UTC [ledgermgmt] NewLedgerMgr -> INFO 016[0m Initialized LedgerMgr
+[34m2021-06-24 18:32:47.860 UTC [gossip.service] New -> INFO 017[0m Initialize gossip with endpoint peer0.org1.example.com:7051
+[34m2021-06-24 18:32:47.862 UTC [gossip.gossip] New -> INFO 018[0m Creating gossip service with self membership of Endpoint: peer0.org1.example.com:7051, InternalEndpoint: peer0.org1.example.com:7051, PKI-ID: 7f128bb3cd07cf94e45e98ff517ec211e48fb3d63ad5da7230f93432e5819c0f, Metadata: 
+[34m2021-06-24 18:32:47.863 UTC [lifecycle] InitializeLocalChaincodes -> INFO 019[0m Initialized lifecycle cache with 0 already installed chaincodes
+[34m2021-06-24 18:32:47.863 UTC [gossip.gossip] start -> INFO 01a[0m Gossip instance peer0.org1.example.com:7051 started
+[34m2021-06-24 18:32:47.863 UTC [nodeCmd] computeChaincodeEndpoint -> INFO 01b[0m Entering computeChaincodeEndpoint with peerHostname: peer0.org1.example.com
+[34m2021-06-24 18:32:47.863 UTC [nodeCmd] computeChaincodeEndpoint -> INFO 01c[0m Exit with ccEndpoint: peer0.org1.example.com:7052
+[34m2021-06-24 18:32:47.865 UTC [sccapi] DeploySysCC -> INFO 01d[0m deploying system chaincode 'lscc'
+[34m2021-06-24 18:32:47.866 UTC [sccapi] DeploySysCC -> INFO 01e[0m deploying system chaincode 'cscc'
+[34m2021-06-24 18:32:47.866 UTC [sccapi] DeploySysCC -> INFO 01f[0m deploying system chaincode 'qscc'
+[34m2021-06-24 18:32:47.866 UTC [sccapi] DeploySysCC -> INFO 020[0m deploying system chaincode '_lifecycle'
+[34m2021-06-24 18:32:47.867 UTC [nodeCmd] serve -> INFO 021[0m Deployed system chaincodes
+[34m2021-06-24 18:32:47.867 UTC [discovery] NewService -> INFO 022[0m Created with config TLS: true, authCacheMaxSize: 1000, authCachePurgeRatio: 0.750000
+[34m2021-06-24 18:32:47.867 UTC [nodeCmd] registerDiscoveryService -> INFO 023[0m Discovery service activated
+[34m2021-06-24 18:32:47.867 UTC [nodeCmd] serve -> INFO 024[0m Starting peer with ID=[peer0.org1.example.com], network ID=[dev], address=[peer0.org1.example.com:7051]
+[34m2021-06-24 18:32:47.867 UTC [nodeCmd] func6 -> INFO 025[0m Starting profiling server with listenAddress = 0.0.0.0:6060
+[34m2021-06-24 18:32:47.867 UTC [nodeCmd] serve -> INFO 026[0m Started peer with ID=[peer0.org1.example.com], network ID=[dev], address=[peer0.org1.example.com:7051]
+[34m2021-06-24 18:32:47.868 UTC [kvledger] LoadPreResetHeight -> INFO 027[0m Loading prereset height from path [/var/hyperledger/production/ledgersData/chains]
+[34m2021-06-24 18:32:47.868 UTC [blkstorage] preResetHtFiles -> INFO 028[0m No active channels passed
+[33m2021-06-24 18:32:50.863 UTC [gossip.discovery] func1 -> WARN 029[0m Could not connect to Endpoint: peer1.org1.example.com:8051, InternalEndpoint: peer1.org1.example.com:8051, PKI-ID: <nil>, Metadata:  : context deadline exceeded
+[34m2021-06-24 18:32:51.712 UTC [comm.grpc.server] 1 -> INFO 02a[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:32:53.711Z grpc.peer_address=172.24.0.16:43216 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=221.701µs
+[34m2021-06-24 18:32:51.716 UTC [gossip.comm] GossipStream -> INFO 02b[0m Peer 46aebe47533adfd03b4a5fec3f0891f86a834238d4f14631f368aee2f1e14f45 (172.24.0.16:43216) probed us
+[34m2021-06-24 18:32:51.716 UTC [comm.grpc.server] 1 -> INFO 02c[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:33:01.714Z grpc.peer_address=172.24.0.16:43216 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=1.808005ms
+[34m2021-06-24 18:32:51.731 UTC [comm.grpc.server] 1 -> INFO 02d[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:32:53.73Z grpc.peer_address=172.24.0.16:43218 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=75.8µs
+[34m2021-06-24 18:33:00.104 UTC [ledgermgmt] CreateLedger -> INFO 02e[0m Creating ledger [mychannel] with genesis block
+[34m2021-06-24 18:33:00.107 UTC [blkstorage] newBlockfileMgr -> INFO 02f[0m Getting block information from block storage
+[34m2021-06-24 18:33:00.154 UTC [couchdb] createDatabaseIfNotExist -> INFO 030[0m Created state database mychannel_
+[34m2021-06-24 18:33:00.231 UTC [couchdb] createDatabaseIfNotExist -> INFO 031[0m Created state database mychannel__lifecycle
+[34m2021-06-24 18:33:00.313 UTC [kvledger] commit -> INFO 032[0m [mychannel] Committed block [0] with 1 transaction(s) in 75ms (state_validation=0ms block_and_pvtdata_commit=4ms state_commit=69ms) commitHash=[]
+[34m2021-06-24 18:33:00.314 UTC [kvledger] updateLedgerStatus -> INFO 033[0m Updating ledger [mychannel] status to [ACTIVE]
+[34m2021-06-24 18:33:00.316 UTC [ledgermgmt] CreateLedger -> INFO 034[0m Created ledger [mychannel] with genesis block
+[34m2021-06-24 18:33:00.350 UTC [gossip.gossip] JoinChan -> INFO 035[0m Joining gossip network of channel mychannel with 2 organizations
+[34m2021-06-24 18:33:00.350 UTC [gossip.gossip] learnAnchorPeers -> INFO 036[0m No configured anchor peers of Org1MSP for channel mychannel to learn about
+[34m2021-06-24 18:33:00.350 UTC [gossip.gossip] learnAnchorPeers -> INFO 037[0m No configured anchor peers of Org2MSP for channel mychannel to learn about
+[34m2021-06-24 18:33:00.352 UTC [gossip.state] NewGossipStateProvider -> INFO 038[0m Updating metadata information for channel mychannel, current ledger sequence is at = 0, next expected block is = 1
+[34m2021-06-24 18:33:00.353 UTC [endorser] callChaincode -> INFO 039[0m finished chaincode: cscc duration: 254ms channel= txID=98b020f8
+[34m2021-06-24 18:33:00.353 UTC [comm.grpc.server] 1 -> INFO 03a[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.24.0.18:52752 grpc.code=OK grpc.call_duration=255.431197ms
+[34m2021-06-24 18:33:05.350 UTC [gossip.channel] reportMembershipChanges -> INFO 03b[0m [[mychannel] Membership view has changed. peers went online:  [[peer1.org1.example.com:8051]] , current view:  [[peer1.org1.example.com:8051]]]
+[34m2021-06-24 18:33:13.494 UTC [gossip.privdata] StoreBlock -> INFO 03c[0m Received block [1] from buffer channel=mychannel
+[34m2021-06-24 18:33:13.515 UTC [comm.grpc.server] 1 -> INFO 03d[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:33:15.515Z grpc.peer_address=172.24.0.16:43260 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=74.5µs
+[34m2021-06-24 18:33:13.519 UTC [comm.grpc.server] 1 -> INFO 03e[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:33:15.515Z grpc.peer_address=172.24.0.17:55628 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=64.7µs
+[34m2021-06-24 18:33:13.523 UTC [gossip.comm] GossipStream -> INFO 03f[0m Peer 46aebe47533adfd03b4a5fec3f0891f86a834238d4f14631f368aee2f1e14f45 (172.24.0.16:43260) probed us
+[34m2021-06-24 18:33:13.523 UTC [comm.grpc.server] 1 -> INFO 040[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:33:23.518Z grpc.peer_address=172.24.0.16:43260 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=4.931713ms
+[34m2021-06-24 18:33:13.526 UTC [gossip.comm] GossipStream -> INFO 041[0m Peer 7592b412fb9935e6d61d2da01cc516b49a95d7e5345273c034a0b5a6ce2f88b9 (172.24.0.17:55628) probed us
+[34m2021-06-24 18:33:13.526 UTC [comm.grpc.server] 1 -> INFO 042[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:33:23.524Z grpc.peer_address=172.24.0.17:55628 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=1.890905ms
+[34m2021-06-24 18:33:13.529 UTC [comm.grpc.server] 1 -> INFO 043[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:33:15.528Z grpc.peer_address=172.24.0.15:48502 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=267.801µs
+[34m2021-06-24 18:33:13.542 UTC [gossip.comm] GossipStream -> INFO 044[0m Peer 500a5f07c69be00cb94ee8b036cafbedc48ccfbac91aa8aaf853f70cec6161b5 (172.24.0.15:48502) probed us
+[34m2021-06-24 18:33:13.548 UTC [comm.grpc.server] 1 -> INFO 045[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:33:23.532Z grpc.peer_address=172.24.0.15:48502 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=16.103944ms
+[34m2021-06-24 18:33:13.571 UTC [gossip.gossip] JoinChan -> INFO 046[0m Joining gossip network of channel mychannel with 2 organizations
+[34m2021-06-24 18:33:13.571 UTC [gossip.gossip] learnAnchorPeers -> INFO 047[0m Learning about the configured anchor peers of Org1MSP for channel mychannel: [{peer0.org1.example.com 7051}]
+[34m2021-06-24 18:33:13.571 UTC [gossip.gossip] learnAnchorPeers -> INFO 048[0m Anchor peer for channel mychannel with same endpoint, skipping connecting to myself
+[34m2021-06-24 18:33:13.571 UTC [gossip.gossip] learnAnchorPeers -> INFO 049[0m No configured anchor peers of Org2MSP for channel mychannel to learn about
+[34m2021-06-24 18:33:13.571 UTC [comm.grpc.server] 1 -> INFO 04a[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:33:15.571Z grpc.peer_address=172.24.0.15:48506 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=75µs
+[34m2021-06-24 18:33:13.574 UTC [committer.txvalidator] Validate -> INFO 04b[0m [mychannel] Validated block [1] in 79ms
+[34m2021-06-24 18:33:13.596 UTC [comm.grpc.server] 1 -> INFO 04c[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:33:15.595Z grpc.peer_address=172.24.0.17:55632 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=68.9µs
+[34m2021-06-24 18:33:13.635 UTC [kvledger] commit -> INFO 04d[0m [mychannel] Committed block [1] with 1 transaction(s) in 58ms (state_validation=0ms block_and_pvtdata_commit=10ms state_commit=45ms) commitHash=[47dc540c94ceb704a23875c11273e16bb0b8a87aed84de911f2133568115f254]
+[34m2021-06-24 18:33:15.351 UTC [gossip.channel] reportMembershipChanges -> INFO 04e[0m [[mychannel] Membership view has changed. peers went online:  [[peer0.org2.example.com:17051 ] [peer1.org2.example.com:18051 ]] , current view:  [[peer0.org2.example.com:17051 ] [peer1.org2.example.com:18051 ] [peer1.org1.example.com:8051]]]
+[34m2021-06-24 18:33:16.610 UTC [gossip.privdata] StoreBlock -> INFO 04f[0m Received block [2] from buffer channel=mychannel
+[34m2021-06-24 18:33:16.616 UTC [gossip.gossip] JoinChan -> INFO 050[0m Joining gossip network of channel mychannel with 2 organizations
+[34m2021-06-24 18:33:16.617 UTC [gossip.gossip] learnAnchorPeers -> INFO 051[0m Learning about the configured anchor peers of Org1MSP for channel mychannel: [{peer0.org1.example.com 7051}]
+[34m2021-06-24 18:33:16.617 UTC [gossip.gossip] learnAnchorPeers -> INFO 052[0m Anchor peer for channel mychannel with same endpoint, skipping connecting to myself
+[34m2021-06-24 18:33:16.617 UTC [gossip.gossip] learnAnchorPeers -> INFO 053[0m Learning about the configured anchor peers of Org2MSP for channel mychannel: [{peer0.org2.example.com 17051}]
+[34m2021-06-24 18:33:16.619 UTC [committer.txvalidator] Validate -> INFO 054[0m [mychannel] Validated block [2] in 8ms
+[34m2021-06-24 18:33:16.620 UTC [comm.grpc.server] 1 -> INFO 055[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:33:18.62Z grpc.peer_address=172.24.0.16:43276 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=62.601µs
+[34m2021-06-24 18:33:16.627 UTC [gossip.comm] GossipStream -> INFO 056[0m Peer 46aebe47533adfd03b4a5fec3f0891f86a834238d4f14631f368aee2f1e14f45 (172.24.0.16:43276) probed us
+[34m2021-06-24 18:33:16.627 UTC [comm.grpc.server] 1 -> INFO 057[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:33:26.624Z grpc.peer_address=172.24.0.16:43276 grpc.peer_subject="CN=peer1.org1.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=2.942508ms
+[34m2021-06-24 18:33:16.639 UTC [comm.grpc.server] 1 -> INFO 058[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:33:18.639Z grpc.peer_address=172.24.0.17:55652 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=56.9µs
+[34m2021-06-24 18:33:16.659 UTC [gossip.comm] GossipStream -> INFO 059[0m Peer 7592b412fb9935e6d61d2da01cc516b49a95d7e5345273c034a0b5a6ce2f88b9 (172.24.0.17:55652) probed us
+[34m2021-06-24 18:33:16.659 UTC [comm.grpc.server] 1 -> INFO 05a[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:33:26.657Z grpc.peer_address=172.24.0.17:55652 grpc.peer_subject="CN=peer1.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=1.649905ms
+[34m2021-06-24 18:33:16.677 UTC [comm.grpc.server] 1 -> INFO 05b[0m unary call completed grpc.service=gossip.Gossip grpc.method=Ping grpc.request_deadline=2021-06-24T18:33:18.675Z grpc.peer_address=172.24.0.15:48520 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=59.5µs
+[34m2021-06-24 18:33:16.692 UTC [gossip.comm] GossipStream -> INFO 05c[0m Peer 500a5f07c69be00cb94ee8b036cafbedc48ccfbac91aa8aaf853f70cec6161b5 (172.24.0.15:48520) probed us
+[34m2021-06-24 18:33:16.692 UTC [comm.grpc.server] 1 -> INFO 05d[0m streaming call completed grpc.service=gossip.Gossip grpc.method=GossipStream grpc.request_deadline=2021-06-24T18:33:26.687Z grpc.peer_address=172.24.0.15:48520 grpc.peer_subject="CN=peer0.org2.example.com,L=San Francisco,ST=California,C=US" grpc.code=OK grpc.call_duration=5.095914ms
+[34m2021-06-24 18:33:16.707 UTC [kvledger] commit -> INFO 05e[0m [mychannel] Committed block [2] with 1 transaction(s) in 87ms (state_validation=0ms block_and_pvtdata_commit=26ms state_commit=54ms) commitHash=[5f88b61407b149a48413433f4670c46531e5c4a8febdc339a9536ff8716a559e]
+[34m2021-06-24 18:33:43.510 UTC [lifecycle] InstallChaincode -> INFO 05f[0m Successfully installed chaincode with package ID 'fabcarv1:45097293189158aadd0deab44a9a91a2d536128ab7abfe058ee37eb74539db85'
+[34m2021-06-24 18:33:43.510 UTC [endorser] callChaincode -> INFO 060[0m finished chaincode: _lifecycle duration: 23473ms channel= txID=207a8303
+[34m2021-06-24 18:33:43.510 UTC [comm.grpc.server] 1 -> INFO 061[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.24.0.18:52806 grpc.code=OK grpc.call_duration=23.473778594s
+[34m2021-06-24 18:34:07.131 UTC [endorser] callChaincode -> INFO 062[0m finished chaincode: _lifecycle duration: 0ms channel= txID=363b71f3
+[34m2021-06-24 18:34:07.131 UTC [comm.grpc.server] 1 -> INFO 063[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.24.0.18:52868 grpc.code=OK grpc.call_duration=733.702µs
+[34m2021-06-24 18:34:07.486 UTC [couchdb] createDatabaseIfNotExist -> INFO 064[0m Created state database mychannel_lscc
+[34m2021-06-24 18:34:07.564 UTC [couchdb] createDatabaseIfNotExist -> INFO 065[0m Created state database mychannel__lifecycle$$p_implicit_org_$org1$m$s$p
+[34m2021-06-24 18:34:07.621 UTC [couchdb] createDatabaseIfNotExist -> INFO 066[0m Created state database mychannel__lifecycle$$h_implicit_org_$org1$m$s$p
+[34m2021-06-24 18:34:07.644 UTC [lifecycle] ApproveChaincodeDefinitionForOrg -> INFO 067[0m Successfully endorsed chaincode approval with name 'fabcar', package ID 'fabcarv1:45097293189158aadd0deab44a9a91a2d536128ab7abfe058ee37eb74539db85', on channel 'mychannel' with definition {sequence: 1, endorsement info: (version: '1.0', plugin: 'escc', init required: false), validation info: (plugin: 'vscc', policy: '0a28120c120a080212020800120208011a0b12090a074f7267314d53501a0b12090a074f7267324d5350'), collections: ()}
+[34m2021-06-24 18:34:07.644 UTC [endorser] callChaincode -> INFO 068[0m finished chaincode: _lifecycle duration: 254ms channel=mychannel txID=78dff921
+[34m2021-06-24 18:34:07.652 UTC [comm.grpc.server] 1 -> INFO 069[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.24.0.18:52872 grpc.code=OK grpc.call_duration=262.602016ms
+[34m2021-06-24 18:34:09.688 UTC [gossip.privdata] StoreBlock -> INFO 06a[0m Received block [3] from buffer channel=mychannel
+[34m2021-06-24 18:34:09.689 UTC [committer.txvalidator] Validate -> INFO 06b[0m [mychannel] Validated block [3] in 0ms
+[34m2021-06-24 18:34:09.689 UTC [gossip.privdata] RetrievePvtdata -> INFO 06c[0m Successfully fetched all 1 eligible collection private write sets for block [3] (0 from local cache, 1 from transient store, 0 from other peers) channel=mychannel
+[34m2021-06-24 18:34:09.838 UTC [kvledger] commit -> INFO 06d[0m [mychannel] Committed block [3] with 1 transaction(s) in 148ms (state_validation=31ms block_and_pvtdata_commit=7ms state_commit=108ms) commitHash=[fe0ae343dc08680b1ed41f149981cb651bb18ffe2ceefdb08d4fc020f338c3df]
+[34m2021-06-24 18:34:09.843 UTC [comm.grpc.server] 1 -> INFO 06e[0m streaming call completed grpc.service=protos.Deliver grpc.method=DeliverFiltered grpc.request_deadline=2021-06-24T18:34:37.654Z grpc.peer_address=172.24.0.18:52874 error="context finished before block retrieved: context canceled" grpc.code=Unknown grpc.call_duration=2.188321966s
+[34m2021-06-24 18:35:00.543 UTC [gossip.privdata] StoreBlock -> INFO 06f[0m Received block [4] from buffer channel=mychannel
+[34m2021-06-24 18:35:00.549 UTC [committer.txvalidator] Validate -> INFO 070[0m [mychannel] Validated block [4] in 6ms
+[34m2021-06-24 18:35:00.710 UTC [couchdb] createDatabaseIfNotExist -> INFO 071[0m Created state database mychannel__lifecycle$$h_implicit_org_$org2$m$s$p
+[34m2021-06-24 18:35:00.847 UTC [kvledger] commit -> INFO 072[0m [mychannel] Committed block [4] with 1 transaction(s) in 296ms (state_validation=177ms block_and_pvtdata_commit=5ms state_commit=112ms) commitHash=[0d6422a91bb4cf108af426791c13c91d05571fafbb9b77f3bcb289fc991b8e2c]
+[34m2021-06-24 18:35:01.078 UTC [lifecycle] CheckCommitReadiness -> INFO 073[0m Successfully checked commit readiness of chaincode name 'fabcar' on channel 'mychannel' with definition {sequence: 1, endorsement info: (version: '1.0', plugin: 'escc', init required: false), validation info: (plugin: 'vscc', policy: '0a28120c120a080212020800120208011a0b12090a074f7267314d53501a0b12090a074f7267324d5350'), collections: (<nil>)}
+[34m2021-06-24 18:35:01.082 UTC [lifecycle] CommitChaincodeDefinition -> INFO 074[0m Successfully endorsed commit for chaincode name 'fabcar' on channel 'mychannel' with definition {sequence: 1, endorsement info: (version: '1.0', plugin: 'escc', init required: false), validation info: (plugin: 'vscc', policy: '0a28120c120a080212020800120208011a0b12090a074f7267314d53501a0b12090a074f7267324d5350'), collections: (<nil>)}
+[34m2021-06-24 18:35:01.083 UTC [endorser] callChaincode -> INFO 075[0m finished chaincode: _lifecycle duration: 58ms channel=mychannel txID=60308d62
+[34m2021-06-24 18:35:01.083 UTC [comm.grpc.server] 1 -> INFO 076[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.24.0.18:52950 grpc.code=OK grpc.call_duration=59.858364ms
+[34m2021-06-24 18:35:03.165 UTC [gossip.privdata] StoreBlock -> INFO 077[0m Received block [5] from buffer channel=mychannel
+[34m2021-06-24 18:35:03.174 UTC [committer.txvalidator] Validate -> INFO 078[0m [mychannel] Validated block [5] in 2ms
+[34m2021-06-24 18:35:03.186 UTC [lifecycle] update -> INFO 079[0m Updating cached definition for chaincode 'fabcar' on channel 'mychannel'
+[34m2021-06-24 18:35:03.215 UTC [lifecycle] update -> INFO 07a[0m Chaincode with package ID 'fabcarv1:45097293189158aadd0deab44a9a91a2d536128ab7abfe058ee37eb74539db85' now available on channel mychannel for chaincode definition fabcar:1.0
+[34m2021-06-24 18:35:03.216 UTC [cceventmgmt] HandleStateUpdates -> INFO 07b[0m Channel [mychannel]: Handling deploy or update of chaincode [fabcar]
+[34m2021-06-24 18:35:03.739 UTC [kvledger] commit -> INFO 07c[0m [mychannel] Committed block [5] with 1 transaction(s) in 562ms (state_validation=43ms block_and_pvtdata_commit=9ms state_commit=482ms) commitHash=[4a2dae288556d5345a1e9c4e3e06faf51935e1bbd35cd282b473340c41c8fe1d]
+[34m2021-06-24 18:35:03.765 UTC [comm.grpc.server] 1 -> INFO 07d[0m streaming call completed grpc.service=protos.Deliver grpc.method=DeliverFiltered grpc.request_deadline=2021-06-24T18:35:31.13Z grpc.peer_address=172.24.0.18:52952 error="context finished before block retrieved: context canceled" grpc.code=Unknown grpc.call_duration=2.635479985s
+[34m2021-06-24 18:35:06.262 UTC [endorser] callChaincode -> INFO 07e[0m finished chaincode: fabcar duration: 1913ms channel=mychannel txID=f04f0427
+[34m2021-06-24 18:35:06.262 UTC [comm.grpc.server] 1 -> INFO 07f[0m unary call completed grpc.service=protos.Endorser grpc.method=ProcessProposal grpc.peer_address=172.24.0.18:52962 grpc.code=OK grpc.call_duration=1.919775534s
+[34m2021-06-24 18:35:08.412 UTC [gossip.privdata] StoreBlock -> INFO 080[0m Received block [6] from buffer channel=mychannel
+[34m2021-06-24 18:35:08.494 UTC [committer.txvalidator] Validate -> INFO 081[0m [mychannel] Validated block [6] in 81ms
+[34m2021-06-24 18:35:08.729 UTC [couchdb] createDatabaseIfNotExist -> INFO 082[0m Created state database mychannel_fabcar
+[34m2021-06-24 18:35:08.796 UTC [kvledger] commit -> INFO 083[0m [mychannel] Committed block [6] with 1 transaction(s) in 301ms (state_validation=0ms block_and_pvtdata_commit=6ms state_commit=293ms) commitHash=[dcb39fc2e3455a970c6e5bc370fa87403b7dfa0fd66c54b0c370b87028823258]
+[34m2021-06-24 18:35:08.801 UTC [comm.grpc.server] 1 -> INFO 084[0m streaming call completed grpc.service=protos.Deliver grpc.method=DeliverFiltered grpc.request_deadline=2021-06-24T18:40:06.378Z grpc.peer_address=172.24.0.18:52964 error="context finished before block retrieved: context canceled" grpc.code=Unknown grpc.call_duration=2.423380407s
