@@ -164,7 +164,7 @@ Application: &ApplicationDefaults
 
 Orderer: &OrdererDefaults
 
-    OrdererType: etcdraft
+    OrdererType: solo
 
     Addresses:
         - orderer1.ord1.example.com:7050
