@@ -1,0 +1,1 @@
+[31m2021-07-06 20:36:36.982 +03 [main] InitCmd -> ERRO 001[0m Cannot run peer because cannot init crypto, specified path "/src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/config/msp" does not exist or cannot be accessed: stat /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/config/msp: no such file or directory

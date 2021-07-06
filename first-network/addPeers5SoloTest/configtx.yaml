@@ -14,43 +14,25 @@
 ################################################################################
 Organizations:
 
-    - &Ord1
+    - &OrdererOrg
 
-        Name: Ord1
+        Name: OrdererOrg
 
-        ID: Ord1MSP
+        ID: OrdererMSP
 
-        MSPDir: ./crypto-config/ordererOrganizations/ord1.example.com/msp
-
-        Policies:
-            Readers:
-                Type: Signature
-                Rule: "OR('Ord1MSP.member')"
-            Writers:
-                Type: Signature
-                Rule: "OR('Ord1MSP.member')"
-            Admins:
-                Type: Signature
-                Rule: "OR('Ord1MSP.admin')"
-
-    - &Ord2
-
-        Name: Ord2
-
-        ID: Ord2MSP
-
-        MSPDir: ./crypto-config/ordererOrganizations/ord2.example.com/msp
+        MSPDir: ./crypto-config/ordererOrganizations/example.com/msp
 
         Policies:
             Readers:
                 Type: Signature
-                Rule: "OR('Ord2MSP.member')"
+                Rule: "OR('OrdererMSP.member')"
             Writers:
                 Type: Signature
-                Rule: "OR('Ord2MSP.member')"
+                Rule: "OR('OrdererMSP.member')"
             Admins:
                 Type: Signature
-                Rule: "OR('Ord2MSP.admin')"
+                Rule: "OR('OrdererMSP.admin')"
+
 
     - &Org1
         # DefaultOrg defines the organization which is used in the sampleconfig
@@ -152,12 +134,6 @@ Application: &ApplicationDefaults
         Admins:
             Type: ImplicitMeta
             Rule: "MAJORITY Admins"
-        LifecycleEndorsement:
-            Type: ImplicitMeta
-            Rule: "MAJORITY Endorsement"
-        Endorsement:
-            Type: ImplicitMeta
-            Rule: "MAJORITY Endorsement"
 
     Capabilities:
         <<: *ApplicationCapabilities
@@ -167,7 +143,7 @@ Orderer: &OrdererDefaults
     OrdererType: solo
 
     Addresses:
-        - orderer1.ord1.example.com:7050
+        - orderer.example.com:7050
 
     BatchTimeout: 2s
 
@@ -235,13 +211,12 @@ Profiles:
             Capabilities:
                 <<: *ApplicationCapabilities
 
-    SampleMultiNodeEtcdRaft:
+    TwoOrgsOrdererGenesis:
         <<: *ChannelDefaults
         Orderer:
             <<: *OrdererDefaults
             Organizations:
-                - *Org1
-                - *Org2
+                - *OrdererOrg
             Capabilities:
                 <<: *OrdererCapabilities
         Consortiums:

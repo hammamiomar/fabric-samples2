@@ -1,0 +1,13 @@
+[2021-07-03 01:04:29.186] [sharedprocess] [info] Starting to clean up unused language packs.
+[2021-07-03 01:04:36.781] [sharedprocess] [info] Installing extension: vscode-icons-team.vscode-icons
+[2021-07-03 01:04:37.717] [sharedprocess] [info] Downloaded extension: vscode-icons-team.vscode-icons /src/github.com/hyperledger/fabric-samples/CachedExtensionVSIXs/vscode-icons-team.vscode-icons-11.5.0
+[2021-07-03 01:04:43.717] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.708e147f-7925-4a7e-9a82-b30107c73f8a: vscode-icons-team.vscode-icons
+[2021-07-03 01:04:43.730] [sharedprocess] [info] Renamed to /root/.vscode/extensions/vscode-icons-team.vscode-icons-11.5.0
+[2021-07-03 01:04:43.735] [sharedprocess] [info] Installation completed. vscode-icons-team.vscode-icons
+[2021-07-03 01:04:43.746] [sharedprocess] [info] Extensions installed successfully: vscode-icons-team.vscode-icons
+[2021-07-03 01:05:10.277] [sharedprocess] [info] Installing extension: dracula-theme.theme-dracula
+[2021-07-03 01:05:11.086] [sharedprocess] [info] Downloaded extension: dracula-theme.theme-dracula /src/github.com/hyperledger/fabric-samples/CachedExtensionVSIXs/dracula-theme.theme-dracula-2.22.4
+[2021-07-03 01:05:11.176] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.53dabec5-74bc-4cf8-b3e5-88c2cf4e3761: dracula-theme.theme-dracula
+[2021-07-03 01:05:11.184] [sharedprocess] [info] Renamed to /root/.vscode/extensions/dracula-theme.theme-dracula-2.22.4
+[2021-07-03 01:05:11.189] [sharedprocess] [info] Installation completed. dracula-theme.theme-dracula
+[2021-07-03 01:05:11.195] [sharedprocess] [info] Extensions installed successfully: dracula-theme.theme-dracula
