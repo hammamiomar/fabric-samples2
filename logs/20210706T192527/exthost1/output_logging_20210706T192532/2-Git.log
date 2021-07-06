@@ -1668,3 +1668,94 @@ Warning: Failed to watch ref '/src/github.com/hyperledger/fabric-samples/.git/re
 > git config --get commit.template
 > git check-ignore -v -z --stdin
 > git push origin dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1:dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose-cli.yaml
+> git cat-file -s c7f74710bdf196042638e18c46dcc53570341207
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose-cli.yaml
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose-cli.yaml
+> git show --textconv :first-network/addPeers5SoloTest/scripts/script.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/scripts/script.sh
+> git cat-file -s 5420218c42be65f9a2e1d895744e63d1c2fcfee1
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :first-network/SoloTest/configtx.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/configtx.yaml
+> git cat-file -s e55efb05a3655562da26663a0061738e98101d35
+> git show --textconv :first-network/SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/byfn.sh
+> git cat-file -s 044390461d84d311f5b5f893f7a41784a0f67f01
+> git show --textconv :first-network/SoloTest/crypto-config.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/crypto-config.yaml
+> git cat-file -s 73b444d8cd23efa8a6febb4ed5ca6553a49e78e3
+> git show --textconv :first-network/SoloTest/configtx.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/configtx.yaml
+> git cat-file -s e55efb05a3655562da26663a0061738e98101d35
+> git show --textconv :first-network/SoloTest/crypto-config.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/crypto-config.yaml
+> git cat-file -s 73b444d8cd23efa8a6febb4ed5ca6553a49e78e3
+> git show --textconv :first-network/SoloTest/docker-compose-cli.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/docker-compose-cli.yaml
+> git cat-file -s c7f74710bdf196042638e18c46dcc53570341207
+> git show --textconv :first-network/SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/byfn.sh
+> git cat-file -s 044390461d84d311f5b5f893f7a41784a0f67f01
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/byfn.sh
+> git show --textconv :first-network/addPeers5SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/byfn.sh
+> git cat-file -s 590cfae73ea441b84ce66081fce3d72cb4564346
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/byfn.sh
+> git check-ignore -v -z --stdin
+> git show --textconv :first-network/addPeers5SoloTest/byfnOldRaft.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/byfnOldRaft.sh
+> git cat-file -s 3c569767a9119f942d9e837474aa27e0acf94eb6
+> git show --textconv :first-network/SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/byfn.sh
+> git cat-file -s 044390461d84d311f5b5f893f7a41784a0f67f01
+> git show --textconv :first-network/SoloTest/docker-compose-cli.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/docker-compose-cli.yaml
+> git cat-file -s c7f74710bdf196042638e18c46dcc53570341207
+> git show --textconv :first-network/SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/byfn.sh
+> git cat-file -s 044390461d84d311f5b5f893f7a41784a0f67f01
+> git show --textconv :first-network/SoloTest/configtx.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/configtx.yaml
+> git cat-file -s e55efb05a3655562da26663a0061738e98101d35
+> git show --textconv :first-network/addPeers5SoloTest/configtx.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/configtx.yaml
+> git cat-file -s 56f51a5753ab4820de6123322e24fad332792407
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/configtx.yaml
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/configtx.yaml
+> git show --textconv :first-network/SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/byfn.sh
+> git cat-file -s 044390461d84d311f5b5f893f7a41784a0f67f01
+> git show --textconv :first-network/SoloTest/configtx.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/configtx.yaml
+> git cat-file -s e55efb05a3655562da26663a0061738e98101d35
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/configtx.yaml
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/configtx.yaml
+> git show --textconv :first-network/addPeers5SoloTest/configtx.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/configtx.yaml
+> git cat-file -s 56f51a5753ab4820de6123322e24fad332792407
+> git show --textconv :first-network/SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/byfn.sh
+> git cat-file -s 044390461d84d311f5b5f893f7a41784a0f67f01
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/byfn.sh
+> git show --textconv :first-network/addPeers5SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/byfn.sh
+> git cat-file -s 590cfae73ea441b84ce66081fce3d72cb4564346
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/configtx.yaml
+> git show --textconv :first-network/SoloTest/configtx.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/configtx.yaml
+> git cat-file -s e55efb05a3655562da26663a0061738e98101d35
+> git show --textconv :first-network/SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/SoloTest/byfn.sh
+> git cat-file -s 044390461d84d311f5b5f893f7a41784a0f67f01
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :first-network/orderers16/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/orderers16/byfn.sh
+> git cat-file -s 84c8f738eac4ee27617260604d8f0405d44da6ab
+> git show --textconv :first-network/addPeers5SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/byfn.sh
+> git cat-file -s 590cfae73ea441b84ce66081fce3d72cb4564346
