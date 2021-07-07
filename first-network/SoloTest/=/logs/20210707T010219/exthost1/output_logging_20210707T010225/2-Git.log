@@ -890,3 +890,1385 @@ Open repository: /src/github.com/hyperledger/fabric-samples
 > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/README.md
+> git symbolic-ref --short HEAD
+> git cat-file -s f3d18e149e920b0d511b4e1cfe9fe3936df03304
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :first-network/README.md
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose-cli.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose-cli.yaml
+> git cat-file -s c7f74710bdf196042638e18c46dcc53570341207
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/peer-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/peer-base.yaml
+> git cat-file -s 57a1d880f9640eee37dbae92b7b8a1b2c8422f3c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose.yml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose.yml
+> git cat-file -s bd56291ce99d7cd122a80f8dd0d2d66670656edd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose.yml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose.yml
+> git cat-file -s bd56291ce99d7cd122a80f8dd0d2d66670656edd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose.yml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose.yml
+> git cat-file -s bd56291ce99d7cd122a80f8dd0d2d66670656edd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose.yml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose.yml
+> git cat-file -s bd56291ce99d7cd122a80f8dd0d2d66670656edd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose.yml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose.yml
+> git cat-file -s bd56291ce99d7cd122a80f8dd0d2d66670656edd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose.yml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose.yml
+> git cat-file -s bd56291ce99d7cd122a80f8dd0d2d66670656edd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose.yml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose.yml
+> git cat-file -s bd56291ce99d7cd122a80f8dd0d2d66670656edd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test-network/network.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/network.sh
+> git cat-file -s d82da5619d8ed48565566392e64bc0bf160e2088
+> git check-ignore -v -z --stdin
+> git show --textconv :test-network/configtx/configtx.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/configtx/configtx.yaml
+> git cat-file -s caae825729e548449b4eb560b6825d5283a22b6b
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :test-network/organizations/cryptogen/crypto-config-orderer.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/organizations/cryptogen/crypto-config-orderer.yaml
+> git cat-file -s d40a08e2e4a0db25e6dc2aa2dbb0471210a0bec5
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test-network/organizations/ccp-generate.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/organizations/ccp-generate.sh
+> git cat-file -s d91c7f619e8779c13e9866b57a844ed18c121524
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test-network/organizations/fabric-ca/ordererOrg/fabric-ca-server-config.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/organizations/fabric-ca/ordererOrg/fabric-ca-server-config.yaml
+> git cat-file -s 0591b3e1db9d11b5d361381ea34eac516416b3ad
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test-network/scripts/createChannel.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/scripts/createChannel.sh
+> git cat-file -s d6820708ac63eb15f18456e6331b7a6cd1cf4604
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test-network/network.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/network.sh
+> git cat-file -s d82da5619d8ed48565566392e64bc0bf160e2088
+> git check-ignore -v -z --stdin
+> git show --textconv :test-network/.env
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/.env
+> git cat-file -s eba89f913b3857bf8a8e5705c63e4769360f35ec
+> git show --textconv :test-network/.gitignore
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/.gitignore
+> git cat-file -s ab11a4e8c9dc13d4a347be692ffb435982db6dce
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test-network/network.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/network.sh
+> git cat-file -s d82da5619d8ed48565566392e64bc0bf160e2088
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/base/docker-compose-base.yaml
+> git cat-file -s 1930201d8350d58fd89f4cb4e26d6c6f46cca2e8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :test-network/network.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/test-network/network.sh
+> git cat-file -s d82da5619d8ed48565566392e64bc0bf160e2088
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/scripts/script.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/scripts/script.sh
+> git cat-file -s 5420218c42be65f9a2e1d895744e63d1c2fcfee1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/scripts/utils.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/scripts/utils.sh
+> git cat-file -s 3b3820f1ec42481aa57064876db37558d61b4d43
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/docker-compose-org3.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/docker-compose-org3.yaml
+> git cat-file -s 20aa79cfdf6b23d02f45e2a87f045ea8a56c0ba2
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/byfn.sh
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/byfn.sh
+> git cat-file -s 590cfae73ea441b84ce66081fce3d72cb4564346
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose-ca.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose-ca.yaml
+> git cat-file -s 7f019606e154752916df70dfaa44da174d9c209c
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/addPeers5SoloTest/docker-compose-cli.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose-cli.yaml
+> git cat-file -s c7f74710bdf196042638e18c46dcc53570341207
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest/docker-compose-cli.yaml
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :first-network/orderers10/docker-compose-cli10.yaml
+> git ls-files --stage -- /src/github.com/hyperledger/fabric-samples/first-network/orderers10/docker-compose-cli10.yaml
+> git cat-file -s 6d32f19d960587f6de4d687c4570b6c6dd6c34fd
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1 refs/remotes/dependabot/npm_and_yarn/commercial-paper/organization/digibank/application/acorn-6.4.1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
