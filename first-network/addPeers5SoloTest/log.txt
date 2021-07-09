@@ -1,1 +1,0 @@
-[31m2021-07-07 23:53:42.991 +03 [main] InitCmd -> ERRO 001[0m Fatal error when initializing core config : error when reading core config file: Config File "core" Not Found in "[/src/github.com/hyperledger/fabric-samples/first-network/addPeers5SoloTest]"
